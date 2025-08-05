@@ -1,5 +1,3 @@
-# From SNU KDT Web Visualization Course
-
 # Simple Homepage
 
 ## Subtitle
@@ -10,3 +8,4 @@ print('abc')
 ```
 
 This is the repository for my simple hoempage.
+This is from the SNU KDT Web Visualization course.
