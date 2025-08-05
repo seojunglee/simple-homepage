@@ -1,11 +1,117 @@
-<html>
-  <head>
-    <title> My Simple Hompage</title>
-  </head>
-  <body>
-    <h1>Title of My Simple Homepage</h1>
-    <h2>Subtitle</h2>
-    <p>Paragraph</p>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FintechX - Next-Gen SaaS for Finance</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: #f5f7fa;
+      color: #222;
+    }
+    header {
+      background: #1a73e8;
+      color: #fff;
+      padding: 40px 0 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+    header p {
+      margin: 10px 0 0 0;
+      font-size: 1.2rem;
+      font-weight: 400;
+    }
+    .cta-btn {
+      background: #ff7043;
+      color: #fff;
+      border: none;
+      padding: 15px 40px;
+      border-radius: 30px;
+      font-size: 1.1rem;
+      font-weight: 700;
+      cursor: pointer;
+      margin-top: 30px;
+      transition: background 0.2s;
+    }
+    .cta-btn:hover {
+      background: #ff5722;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 50px 0;
+      gap: 30px;
+    }
+    .feature-card {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 16px rgba(26,115,232,0.08);
+      padding: 30px;
+      max-width: 300px;
+      text-align: center;
+      transition: box-shadow 0.2s;
+    }
+    .feature-card:hover {
+      box-shadow: 0 8px 24px rgba(26,115,232,0.16);
+    }
+    .feature-card h3 {
+      margin-top: 0;
+      font-size: 1.3rem;
+      color: #1a73e8;
+    }
+    .feature-card p {
+      font-size: 1rem;
+      color: #555;
+    }
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 0.95rem;
+    }
+    @media (max-width: 900px) {
+      .features {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>FintechX</h1>
+    <p>Empowering your financial future with smart, secure, and scalable SaaS solutions.</p>
+    <button class="cta-btn">Get Started Free</button>
+  </header>
+  <section class="features">
+    <div class="feature-card">
+      <h3>Real-Time Analytics</h3>
+      <p>Track your financial data and KPIs instantly with interactive dashboards and reports.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Bank-Grade Security</h3>
+      <p>Protect your assets and data with advanced encryption and compliance standards.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Automated Workflows</h3>
+      <p>Save time with smart automation for payments, invoicing, and reconciliation.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Seamless Integrations</h3>
+      <p>Connect with your favorite banking, accounting, and business tools in minutes.</p>
+    </div>
+  </section>
+  <footer>
+    &copy; 2024 FintechX. All rights reserved.
+  </footer>
+</body>
 </html>
-    
